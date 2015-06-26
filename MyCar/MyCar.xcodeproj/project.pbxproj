@@ -1,0 +1,722 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C253F5EC1B3C2A73008C5442 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C253F5EB1B3C2A73008C5442 /* main.m */; };
+		C253F5EF1B3C2A73008C5442 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C253F5EE1B3C2A73008C5442 /* AppDelegate.m */; };
+		C253F5F11B3C2A73008C5442 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C253F5F01B3C2A73008C5442 /* Images.xcassets */; };
+		C253F5F41B3C2A73008C5442 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C253F5F21B3C2A73008C5442 /* LaunchScreen.xib */; };
+		C253F6001B3C2A73008C5442 /* MyCarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C253F5FF1B3C2A73008C5442 /* MyCarTests.m */; };
+		C253F6231B3C2FE7008C5442 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C253F6221B3C2FE7008C5442 /* MainTabBarController.m */; };
+		C253F6261B3C30D5008C5442 /* MyListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C253F6251B3C30D5008C5442 /* MyListTableViewController.m */; };
+		C253F6291B3C3922008C5442 /* MyDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C253F6281B3C3922008C5442 /* MyDetailTableViewController.m */; };
+		C253F62C1B3C3A86008C5442 /* CarTypeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C253F62B1B3C3A86008C5442 /* CarTypeListViewController.m */; };
+		C253F62F1B3C3BA0008C5442 /* CarTypeDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C253F62E1B3C3BA0008C5442 /* CarTypeDetailTableViewController.m */; };
+		C253F6321B3C4090008C5442 /* FindCarDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C253F6311B3C4090008C5442 /* FindCarDetailTableViewController.m */; };
+		C253F6381B3C4340008C5442 /* InformationListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C253F6371B3C4340008C5442 /* InformationListViewController.m */; };
+		C253F63B1B3C4377008C5442 /* InformationDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C253F63A1B3C4377008C5442 /* InformationDetailTableViewController.m */; };
+		C253F63E1B3C43E3008C5442 /* MoreDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C253F63D1B3C43E3008C5442 /* MoreDetailTableViewController.m */; };
+		C253F6411B3C440E008C5442 /* MoreListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C253F6401B3C440E008C5442 /* MoreListTableViewController.m */; };
+		C253F6441B3C474A008C5442 /* CarTypeListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C253F6431B3C474A008C5442 /* CarTypeListCell.m */; };
+		C253F6471B3C4778008C5442 /* CarTypeDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C253F6461B3C4778008C5442 /* CarTypeDetailCell.m */; };
+		C253F64A1B3C47DC008C5442 /* MoreDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C253F6491B3C47DC008C5442 /* MoreDetailCell.m */; };
+		C253F64D1B3C4835008C5442 /* MoreListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C253F64C1B3C4835008C5442 /* MoreListCell.m */; };
+		C253F6501B3C4935008C5442 /* InformationDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C253F64F1B3C4935008C5442 /* InformationDetailCell.m */; };
+		C253F6531B3C4961008C5442 /* InformationListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C253F6521B3C4961008C5442 /* InformationListCell.m */; };
+		C253F6561B3C4A91008C5442 /* FindCarDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C253F6551B3C4A91008C5442 /* FindCarDetailCell.m */; };
+		C253F6591B3C4ADC008C5442 /* FindCarListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C253F6581B3C4ADC008C5442 /* FindCarListCell.m */; };
+		C253F65C1B3C4EC7008C5442 /* FindCarListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C253F65B1B3C4EC7008C5442 /* FindCarListTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C253F5FA1B3C2A73008C5442 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C253F5DE1B3C2A73008C5442 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C253F5E51B3C2A73008C5442;
+			remoteInfo = MyCar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C253F5E61B3C2A73008C5442 /* MyCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C253F5EA1B3C2A73008C5442 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C253F5EB1B3C2A73008C5442 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C253F5ED1B3C2A73008C5442 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C253F5EE1B3C2A73008C5442 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C253F5F01B3C2A73008C5442 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C253F5F31B3C2A73008C5442 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C253F5F91B3C2A73008C5442 /* MyCarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C253F5FE1B3C2A73008C5442 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C253F5FF1B3C2A73008C5442 /* MyCarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCarTests.m; sourceTree = "<group>"; };
+		C253F6211B3C2FE7008C5442 /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		C253F6221B3C2FE7008C5442 /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		C253F6241B3C30D5008C5442 /* MyListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyListTableViewController.h; sourceTree = "<group>"; };
+		C253F6251B3C30D5008C5442 /* MyListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyListTableViewController.m; sourceTree = "<group>"; };
+		C253F6271B3C3922008C5442 /* MyDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDetailTableViewController.h; sourceTree = "<group>"; };
+		C253F6281B3C3922008C5442 /* MyDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDetailTableViewController.m; sourceTree = "<group>"; };
+		C253F62A1B3C3A86008C5442 /* CarTypeListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarTypeListViewController.h; sourceTree = "<group>"; };
+		C253F62B1B3C3A86008C5442 /* CarTypeListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarTypeListViewController.m; sourceTree = "<group>"; };
+		C253F62D1B3C3BA0008C5442 /* CarTypeDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarTypeDetailTableViewController.h; sourceTree = "<group>"; };
+		C253F62E1B3C3BA0008C5442 /* CarTypeDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarTypeDetailTableViewController.m; sourceTree = "<group>"; };
+		C253F6301B3C4090008C5442 /* FindCarDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindCarDetailTableViewController.h; sourceTree = "<group>"; };
+		C253F6311B3C4090008C5442 /* FindCarDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindCarDetailTableViewController.m; sourceTree = "<group>"; };
+		C253F6361B3C4340008C5442 /* InformationListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InformationListViewController.h; sourceTree = "<group>"; };
+		C253F6371B3C4340008C5442 /* InformationListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationListViewController.m; sourceTree = "<group>"; };
+		C253F6391B3C4377008C5442 /* InformationDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InformationDetailTableViewController.h; sourceTree = "<group>"; };
+		C253F63A1B3C4377008C5442 /* InformationDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationDetailTableViewController.m; sourceTree = "<group>"; };
+		C253F63C1B3C43E3008C5442 /* MoreDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreDetailTableViewController.h; sourceTree = "<group>"; };
+		C253F63D1B3C43E3008C5442 /* MoreDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreDetailTableViewController.m; sourceTree = "<group>"; };
+		C253F63F1B3C440E008C5442 /* MoreListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreListTableViewController.h; sourceTree = "<group>"; };
+		C253F6401B3C440E008C5442 /* MoreListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreListTableViewController.m; sourceTree = "<group>"; };
+		C253F6421B3C474A008C5442 /* CarTypeListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarTypeListCell.h; sourceTree = "<group>"; };
+		C253F6431B3C474A008C5442 /* CarTypeListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarTypeListCell.m; sourceTree = "<group>"; };
+		C253F6451B3C4778008C5442 /* CarTypeDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarTypeDetailCell.h; sourceTree = "<group>"; };
+		C253F6461B3C4778008C5442 /* CarTypeDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarTypeDetailCell.m; sourceTree = "<group>"; };
+		C253F6481B3C47DC008C5442 /* MoreDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreDetailCell.h; sourceTree = "<group>"; };
+		C253F6491B3C47DC008C5442 /* MoreDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreDetailCell.m; sourceTree = "<group>"; };
+		C253F64B1B3C4835008C5442 /* MoreListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreListCell.h; sourceTree = "<group>"; };
+		C253F64C1B3C4835008C5442 /* MoreListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreListCell.m; sourceTree = "<group>"; };
+		C253F64E1B3C4935008C5442 /* InformationDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InformationDetailCell.h; sourceTree = "<group>"; };
+		C253F64F1B3C4935008C5442 /* InformationDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationDetailCell.m; sourceTree = "<group>"; };
+		C253F6511B3C4961008C5442 /* InformationListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InformationListCell.h; sourceTree = "<group>"; };
+		C253F6521B3C4961008C5442 /* InformationListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationListCell.m; sourceTree = "<group>"; };
+		C253F6541B3C4A91008C5442 /* FindCarDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindCarDetailCell.h; sourceTree = "<group>"; };
+		C253F6551B3C4A91008C5442 /* FindCarDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindCarDetailCell.m; sourceTree = "<group>"; };
+		C253F6571B3C4ADC008C5442 /* FindCarListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindCarListCell.h; sourceTree = "<group>"; };
+		C253F6581B3C4ADC008C5442 /* FindCarListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindCarListCell.m; sourceTree = "<group>"; };
+		C253F65A1B3C4EC7008C5442 /* FindCarListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindCarListTableViewController.h; sourceTree = "<group>"; };
+		C253F65B1B3C4EC7008C5442 /* FindCarListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindCarListTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C253F5E31B3C2A73008C5442 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C253F5F61B3C2A73008C5442 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C253F5DD1B3C2A72008C5442 = {
+			isa = PBXGroup;
+			children = (
+				C253F5E81B3C2A73008C5442 /* MyCar */,
+				C253F5FC1B3C2A73008C5442 /* MyCarTests */,
+				C253F5E71B3C2A73008C5442 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C253F5E71B3C2A73008C5442 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C253F5E61B3C2A73008C5442 /* MyCar.app */,
+				C253F5F91B3C2A73008C5442 /* MyCarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C253F5E81B3C2A73008C5442 /* MyCar */ = {
+			isa = PBXGroup;
+			children = (
+				C253F6191B3C2BD3008C5442 /* Common */,
+				C253F6151B3C2BCF008C5442 /* CarType */,
+				C253F6111B3C2BCA008C5442 /* FindCar */,
+				C253F60D1B3C2BC6008C5442 /* Information */,
+				C253F6091B3C2BC1008C5442 /* More */,
+				C253F5ED1B3C2A73008C5442 /* AppDelegate.h */,
+				C253F5EE1B3C2A73008C5442 /* AppDelegate.m */,
+				C253F5F01B3C2A73008C5442 /* Images.xcassets */,
+				C253F5F21B3C2A73008C5442 /* LaunchScreen.xib */,
+				C253F5E91B3C2A73008C5442 /* Supporting Files */,
+			);
+			path = MyCar;
+			sourceTree = "<group>";
+		};
+		C253F5E91B3C2A73008C5442 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C253F5EA1B3C2A73008C5442 /* Info.plist */,
+				C253F5EB1B3C2A73008C5442 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C253F5FC1B3C2A73008C5442 /* MyCarTests */ = {
+			isa = PBXGroup;
+			children = (
+				C253F5FF1B3C2A73008C5442 /* MyCarTests.m */,
+				C253F5FD1B3C2A73008C5442 /* Supporting Files */,
+			);
+			path = MyCarTests;
+			sourceTree = "<group>";
+		};
+		C253F5FD1B3C2A73008C5442 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C253F5FE1B3C2A73008C5442 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C253F6091B3C2BC1008C5442 /* More */ = {
+			isa = PBXGroup;
+			children = (
+				C253F60A1B3C2BC1008C5442 /* Controller */,
+				C253F60B1B3C2BC1008C5442 /* Model */,
+				C253F60C1B3C2BC1008C5442 /* View */,
+			);
+			name = More;
+			path = ../More;
+			sourceTree = "<group>";
+		};
+		C253F60A1B3C2BC1008C5442 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C253F63C1B3C43E3008C5442 /* MoreDetailTableViewController.h */,
+				C253F63D1B3C43E3008C5442 /* MoreDetailTableViewController.m */,
+				C253F63F1B3C440E008C5442 /* MoreListTableViewController.h */,
+				C253F6401B3C440E008C5442 /* MoreListTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C253F60B1B3C2BC1008C5442 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C253F60C1B3C2BC1008C5442 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C253F6481B3C47DC008C5442 /* MoreDetailCell.h */,
+				C253F6491B3C47DC008C5442 /* MoreDetailCell.m */,
+				C253F64B1B3C4835008C5442 /* MoreListCell.h */,
+				C253F64C1B3C4835008C5442 /* MoreListCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C253F60D1B3C2BC6008C5442 /* Information */ = {
+			isa = PBXGroup;
+			children = (
+				C253F60E1B3C2BC6008C5442 /* Controller */,
+				C253F60F1B3C2BC6008C5442 /* Model */,
+				C253F6101B3C2BC6008C5442 /* View */,
+			);
+			name = Information;
+			path = ../Information;
+			sourceTree = "<group>";
+		};
+		C253F60E1B3C2BC6008C5442 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C253F6361B3C4340008C5442 /* InformationListViewController.h */,
+				C253F6371B3C4340008C5442 /* InformationListViewController.m */,
+				C253F6391B3C4377008C5442 /* InformationDetailTableViewController.h */,
+				C253F63A1B3C4377008C5442 /* InformationDetailTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C253F60F1B3C2BC6008C5442 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C253F6101B3C2BC6008C5442 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C253F64E1B3C4935008C5442 /* InformationDetailCell.h */,
+				C253F64F1B3C4935008C5442 /* InformationDetailCell.m */,
+				C253F6511B3C4961008C5442 /* InformationListCell.h */,
+				C253F6521B3C4961008C5442 /* InformationListCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C253F6111B3C2BCA008C5442 /* FindCar */ = {
+			isa = PBXGroup;
+			children = (
+				C253F6121B3C2BCA008C5442 /* Controller */,
+				C253F6131B3C2BCA008C5442 /* Model */,
+				C253F6141B3C2BCA008C5442 /* View */,
+			);
+			name = FindCar;
+			path = ../FindCar;
+			sourceTree = "<group>";
+		};
+		C253F6121B3C2BCA008C5442 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C253F6301B3C4090008C5442 /* FindCarDetailTableViewController.h */,
+				C253F6311B3C4090008C5442 /* FindCarDetailTableViewController.m */,
+				C253F65A1B3C4EC7008C5442 /* FindCarListTableViewController.h */,
+				C253F65B1B3C4EC7008C5442 /* FindCarListTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C253F6131B3C2BCA008C5442 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C253F6141B3C2BCA008C5442 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C253F6541B3C4A91008C5442 /* FindCarDetailCell.h */,
+				C253F6551B3C4A91008C5442 /* FindCarDetailCell.m */,
+				C253F6571B3C4ADC008C5442 /* FindCarListCell.h */,
+				C253F6581B3C4ADC008C5442 /* FindCarListCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C253F6151B3C2BCF008C5442 /* CarType */ = {
+			isa = PBXGroup;
+			children = (
+				C253F6161B3C2BCF008C5442 /* Controller */,
+				C253F6171B3C2BCF008C5442 /* Model */,
+				C253F6181B3C2BCF008C5442 /* View */,
+			);
+			name = CarType;
+			path = ../CarType;
+			sourceTree = "<group>";
+		};
+		C253F6161B3C2BCF008C5442 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C253F62A1B3C3A86008C5442 /* CarTypeListViewController.h */,
+				C253F62B1B3C3A86008C5442 /* CarTypeListViewController.m */,
+				C253F62D1B3C3BA0008C5442 /* CarTypeDetailTableViewController.h */,
+				C253F62E1B3C3BA0008C5442 /* CarTypeDetailTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C253F6171B3C2BCF008C5442 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C253F6181B3C2BCF008C5442 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C253F6421B3C474A008C5442 /* CarTypeListCell.h */,
+				C253F6431B3C474A008C5442 /* CarTypeListCell.m */,
+				C253F6451B3C4778008C5442 /* CarTypeDetailCell.h */,
+				C253F6461B3C4778008C5442 /* CarTypeDetailCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C253F6191B3C2BD3008C5442 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C253F61A1B3C2BD3008C5442 /* Images */,
+				C253F61B1B3C2BD3008C5442 /* ourClass */,
+				C253F6201B3C2BD3008C5442 /* ThirdClass */,
+			);
+			name = Common;
+			path = ../Common;
+			sourceTree = "<group>";
+		};
+		C253F61A1B3C2BD3008C5442 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		C253F61B1B3C2BD3008C5442 /* ourClass */ = {
+			isa = PBXGroup;
+			children = (
+				C253F61F1B3C2BD3008C5442 /* View */,
+				C253F61C1B3C2BD3008C5442 /* Controller */,
+				C253F61D1B3C2BD3008C5442 /* Model */,
+				C253F61E1B3C2BD3008C5442 /* netWork */,
+			);
+			path = ourClass;
+			sourceTree = "<group>";
+		};
+		C253F61C1B3C2BD3008C5442 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C253F6211B3C2FE7008C5442 /* MainTabBarController.h */,
+				C253F6221B3C2FE7008C5442 /* MainTabBarController.m */,
+				C253F6241B3C30D5008C5442 /* MyListTableViewController.h */,
+				C253F6251B3C30D5008C5442 /* MyListTableViewController.m */,
+				C253F6271B3C3922008C5442 /* MyDetailTableViewController.h */,
+				C253F6281B3C3922008C5442 /* MyDetailTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C253F61D1B3C2BD3008C5442 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C253F61E1B3C2BD3008C5442 /* netWork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = netWork;
+			sourceTree = "<group>";
+		};
+		C253F61F1B3C2BD3008C5442 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C253F6201B3C2BD3008C5442 /* ThirdClass */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdClass;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C253F5E51B3C2A73008C5442 /* MyCar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C253F6031B3C2A73008C5442 /* Build configuration list for PBXNativeTarget "MyCar" */;
+			buildPhases = (
+				C253F5E21B3C2A73008C5442 /* Sources */,
+				C253F5E31B3C2A73008C5442 /* Frameworks */,
+				C253F5E41B3C2A73008C5442 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyCar;
+			productName = MyCar;
+			productReference = C253F5E61B3C2A73008C5442 /* MyCar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C253F5F81B3C2A73008C5442 /* MyCarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C253F6061B3C2A73008C5442 /* Build configuration list for PBXNativeTarget "MyCarTests" */;
+			buildPhases = (
+				C253F5F51B3C2A73008C5442 /* Sources */,
+				C253F5F61B3C2A73008C5442 /* Frameworks */,
+				C253F5F71B3C2A73008C5442 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C253F5FB1B3C2A73008C5442 /* PBXTargetDependency */,
+			);
+			name = MyCarTests;
+			productName = MyCarTests;
+			productReference = C253F5F91B3C2A73008C5442 /* MyCarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C253F5DE1B3C2A73008C5442 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "李智慧";
+				TargetAttributes = {
+					C253F5E51B3C2A73008C5442 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					C253F5F81B3C2A73008C5442 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = C253F5E51B3C2A73008C5442;
+					};
+				};
+			};
+			buildConfigurationList = C253F5E11B3C2A73008C5442 /* Build configuration list for PBXProject "MyCar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C253F5DD1B3C2A72008C5442;
+			productRefGroup = C253F5E71B3C2A73008C5442 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C253F5E51B3C2A73008C5442 /* MyCar */,
+				C253F5F81B3C2A73008C5442 /* MyCarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C253F5E41B3C2A73008C5442 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C253F5F41B3C2A73008C5442 /* LaunchScreen.xib in Resources */,
+				C253F5F11B3C2A73008C5442 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C253F5F71B3C2A73008C5442 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C253F5E21B3C2A73008C5442 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C253F5EF1B3C2A73008C5442 /* AppDelegate.m in Sources */,
+				C253F64A1B3C47DC008C5442 /* MoreDetailCell.m in Sources */,
+				C253F6591B3C4ADC008C5442 /* FindCarListCell.m in Sources */,
+				C253F62C1B3C3A86008C5442 /* CarTypeListViewController.m in Sources */,
+				C253F6291B3C3922008C5442 /* MyDetailTableViewController.m in Sources */,
+				C253F6531B3C4961008C5442 /* InformationListCell.m in Sources */,
+				C253F63E1B3C43E3008C5442 /* MoreDetailTableViewController.m in Sources */,
+				C253F6501B3C4935008C5442 /* InformationDetailCell.m in Sources */,
+				C253F5EC1B3C2A73008C5442 /* main.m in Sources */,
+				C253F63B1B3C4377008C5442 /* InformationDetailTableViewController.m in Sources */,
+				C253F65C1B3C4EC7008C5442 /* FindCarListTableViewController.m in Sources */,
+				C253F64D1B3C4835008C5442 /* MoreListCell.m in Sources */,
+				C253F6411B3C440E008C5442 /* MoreListTableViewController.m in Sources */,
+				C253F6561B3C4A91008C5442 /* FindCarDetailCell.m in Sources */,
+				C253F6471B3C4778008C5442 /* CarTypeDetailCell.m in Sources */,
+				C253F6231B3C2FE7008C5442 /* MainTabBarController.m in Sources */,
+				C253F6261B3C30D5008C5442 /* MyListTableViewController.m in Sources */,
+				C253F6441B3C474A008C5442 /* CarTypeListCell.m in Sources */,
+				C253F6321B3C4090008C5442 /* FindCarDetailTableViewController.m in Sources */,
+				C253F62F1B3C3BA0008C5442 /* CarTypeDetailTableViewController.m in Sources */,
+				C253F6381B3C4340008C5442 /* InformationListViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C253F5F51B3C2A73008C5442 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C253F6001B3C2A73008C5442 /* MyCarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C253F5FB1B3C2A73008C5442 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C253F5E51B3C2A73008C5442 /* MyCar */;
+			targetProxy = C253F5FA1B3C2A73008C5442 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C253F5F21B3C2A73008C5442 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C253F5F31B3C2A73008C5442 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C253F6011B3C2A73008C5442 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C253F6021B3C2A73008C5442 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C253F6041B3C2A73008C5442 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyCar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C253F6051B3C2A73008C5442 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyCar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C253F6071B3C2A73008C5442 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyCarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyCar.app/MyCar";
+			};
+			name = Debug;
+		};
+		C253F6081B3C2A73008C5442 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyCarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyCar.app/MyCar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C253F5E11B3C2A73008C5442 /* Build configuration list for PBXProject "MyCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C253F6011B3C2A73008C5442 /* Debug */,
+				C253F6021B3C2A73008C5442 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C253F6031B3C2A73008C5442 /* Build configuration list for PBXNativeTarget "MyCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C253F6041B3C2A73008C5442 /* Debug */,
+				C253F6051B3C2A73008C5442 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C253F6061B3C2A73008C5442 /* Build configuration list for PBXNativeTarget "MyCarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C253F6071B3C2A73008C5442 /* Debug */,
+				C253F6081B3C2A73008C5442 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C253F5DE1B3C2A73008C5442 /* Project object */;
+}
