@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>73DED65E-4B07-4746-8195-2EEB06BDE39D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MyCar</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E987AAF7D429A23ACDA66677355B953438D33F60</key>
+		<string>https://github.com/lizhihui-pq/Autubots.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MyCar/MyCar.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E987AAF7D429A23ACDA66677355B953438D33F60</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/lizhihui-pq/Autubots.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E987AAF7D429A23ACDA66677355B953438D33F60</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E987AAF7D429A23ACDA66677355B953438D33F60</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Autobots</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C24035C81B3D30140018E388 /* CarType.m in Sources */ = {isa = PBXBuildFile; fileRef = C24035C71B3D30140018E388 /* CarType.m */; };
+		C24035CB1B3D30890018E388 /* FileHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = C24035CA1B3D30890018E388 /* FileHandle.m */; };
+		C24035D11B3D86AD0018E388 /* CarTypeParameterController.m in Sources */ = {isa = PBXBuildFile; fileRef = C24035D01B3D86AD0018E388 /* CarTypeParameterController.m */; };
+		C24035D41B3D86E90018E388 /* TypeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C24035D31B3D86E90018E388 /* TypeListViewController.m */; };
+		C24035D71B3D87430018E388 /* CarTypeParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = C24035D61B3D87430018E388 /* CarTypeParameter.m */; };
 		C253F5EC1B3C2A73008C5442 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C253F5EB1B3C2A73008C5442 /* main.m */; };
 		C253F5EF1B3C2A73008C5442 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C253F5EE1B3C2A73008C5442 /* AppDelegate.m */; };
 		C253F5F11B3C2A73008C5442 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C253F5F01B3C2A73008C5442 /* Images.xcassets */; };
@@ -15,7 +20,6 @@
 		C253F6231B3C2FE7008C5442 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C253F6221B3C2FE7008C5442 /* MainTabBarController.m */; };
 		C253F6261B3C30D5008C5442 /* MyListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C253F6251B3C30D5008C5442 /* MyListTableViewController.m */; };
 		C253F6291B3C3922008C5442 /* MyDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C253F6281B3C3922008C5442 /* MyDetailTableViewController.m */; };
-		C253F62C1B3C3A86008C5442 /* CarTypeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C253F62B1B3C3A86008C5442 /* CarTypeListViewController.m */; };
 		C253F62F1B3C3BA0008C5442 /* CarTypeDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C253F62E1B3C3BA0008C5442 /* CarTypeDetailTableViewController.m */; };
 		C253F6321B3C4090008C5442 /* FindCarDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C253F6311B3C4090008C5442 /* FindCarDetailTableViewController.m */; };
 		C253F6381B3C4340008C5442 /* InformationListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C253F6371B3C4340008C5442 /* InformationListViewController.m */; };
@@ -31,6 +35,8 @@
 		C253F6561B3C4A91008C5442 /* FindCarDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C253F6551B3C4A91008C5442 /* FindCarDetailCell.m */; };
 		C253F6591B3C4ADC008C5442 /* FindCarListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C253F6581B3C4ADC008C5442 /* FindCarListCell.m */; };
 		C253F65C1B3C4EC7008C5442 /* FindCarListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C253F65B1B3C4EC7008C5442 /* FindCarListTableViewController.m */; };
+		C256ABC31B3E356700C7D4E7 /* SellCarTypeTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C256ABC21B3E356700C7D4E7 /* SellCarTypeTableView.m */; };
+		C256ABC61B3E358100C7D4E7 /* StopSellCarTypeTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C256ABC51B3E358100C7D4E7 /* StopSellCarTypeTableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,11 +50,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C24035C51B3D002B0018E388 /* AutobotsURL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutobotsURL.h; sourceTree = SOURCE_ROOT; };
+		C24035C61B3D30140018E388 /* CarType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarType.h; sourceTree = SOURCE_ROOT; };
+		C24035C71B3D30140018E388 /* CarType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarType.m; sourceTree = SOURCE_ROOT; };
+		C24035C91B3D30890018E388 /* FileHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileHandle.h; sourceTree = SOURCE_ROOT; };
+		C24035CA1B3D30890018E388 /* FileHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileHandle.m; sourceTree = SOURCE_ROOT; };
+		C24035CF1B3D86AD0018E388 /* CarTypeParameterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CarTypeParameterController.h; path = ../View/CarTypeParameterController.h; sourceTree = "<group>"; };
+		C24035D01B3D86AD0018E388 /* CarTypeParameterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CarTypeParameterController.m; path = ../View/CarTypeParameterController.m; sourceTree = "<group>"; };
+		C24035D21B3D86E90018E388 /* TypeListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeListViewController.h; sourceTree = "<group>"; };
+		C24035D31B3D86E90018E388 /* TypeListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeListViewController.m; sourceTree = "<group>"; };
+		C24035D51B3D87430018E388 /* CarTypeParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarTypeParameter.h; sourceTree = "<group>"; };
+		C24035D61B3D87430018E388 /* CarTypeParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarTypeParameter.m; sourceTree = "<group>"; };
 		C253F5E61B3C2A73008C5442 /* MyCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C253F5EA1B3C2A73008C5442 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C253F5EB1B3C2A73008C5442 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C253F5ED1B3C2A73008C5442 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		C253F5EE1B3C2A73008C5442 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C253F5ED1B3C2A73008C5442 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../MyCar/AppDelegate.h; sourceTree = "<group>"; };
+		C253F5EE1B3C2A73008C5442 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../MyCar/AppDelegate.m; sourceTree = "<group>"; };
 		C253F5F01B3C2A73008C5442 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C253F5F31B3C2A73008C5442 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C253F5F91B3C2A73008C5442 /* MyCarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,8 +77,6 @@
 		C253F6251B3C30D5008C5442 /* MyListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyListTableViewController.m; sourceTree = "<group>"; };
 		C253F6271B3C3922008C5442 /* MyDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDetailTableViewController.h; sourceTree = "<group>"; };
 		C253F6281B3C3922008C5442 /* MyDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDetailTableViewController.m; sourceTree = "<group>"; };
-		C253F62A1B3C3A86008C5442 /* CarTypeListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarTypeListViewController.h; sourceTree = "<group>"; };
-		C253F62B1B3C3A86008C5442 /* CarTypeListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarTypeListViewController.m; sourceTree = "<group>"; };
 		C253F62D1B3C3BA0008C5442 /* CarTypeDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarTypeDetailTableViewController.h; sourceTree = "<group>"; };
 		C253F62E1B3C3BA0008C5442 /* CarTypeDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarTypeDetailTableViewController.m; sourceTree = "<group>"; };
 		C253F6301B3C4090008C5442 /* FindCarDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindCarDetailTableViewController.h; sourceTree = "<group>"; };
@@ -92,6 +107,10 @@
 		C253F6581B3C4ADC008C5442 /* FindCarListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindCarListCell.m; sourceTree = "<group>"; };
 		C253F65A1B3C4EC7008C5442 /* FindCarListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindCarListTableViewController.h; sourceTree = "<group>"; };
 		C253F65B1B3C4EC7008C5442 /* FindCarListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindCarListTableViewController.m; sourceTree = "<group>"; };
+		C256ABC11B3E356700C7D4E7 /* SellCarTypeTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SellCarTypeTableView.h; sourceTree = "<group>"; };
+		C256ABC21B3E356700C7D4E7 /* SellCarTypeTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SellCarTypeTableView.m; sourceTree = "<group>"; };
+		C256ABC41B3E358100C7D4E7 /* StopSellCarTypeTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopSellCarTypeTableView.h; sourceTree = "<group>"; };
+		C256ABC51B3E358100C7D4E7 /* StopSellCarTypeTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopSellCarTypeTableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,8 +157,6 @@
 				C253F6111B3C2BCA008C5442 /* FindCar */,
 				C253F60D1B3C2BC6008C5442 /* Information */,
 				C253F6091B3C2BC1008C5442 /* More */,
-				C253F5ED1B3C2A73008C5442 /* AppDelegate.h */,
-				C253F5EE1B3C2A73008C5442 /* AppDelegate.m */,
 				C253F5F01B3C2A73008C5442 /* Images.xcassets */,
 				C253F5F21B3C2A73008C5442 /* LaunchScreen.xib */,
 				C253F5E91B3C2A73008C5442 /* Supporting Files */,
@@ -307,10 +324,12 @@
 		C253F6161B3C2BCF008C5442 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				C253F62A1B3C3A86008C5442 /* CarTypeListViewController.h */,
-				C253F62B1B3C3A86008C5442 /* CarTypeListViewController.m */,
+				C24035CF1B3D86AD0018E388 /* CarTypeParameterController.h */,
+				C24035D01B3D86AD0018E388 /* CarTypeParameterController.m */,
 				C253F62D1B3C3BA0008C5442 /* CarTypeDetailTableViewController.h */,
 				C253F62E1B3C3BA0008C5442 /* CarTypeDetailTableViewController.m */,
+				C24035D21B3D86E90018E388 /* TypeListViewController.h */,
+				C24035D31B3D86E90018E388 /* TypeListViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -318,6 +337,8 @@
 		C253F6171B3C2BCF008C5442 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C24035C61B3D30140018E388 /* CarType.h */,
+				C24035C71B3D30140018E388 /* CarType.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -325,6 +346,12 @@
 		C253F6181B3C2BCF008C5442 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C24035D51B3D87430018E388 /* CarTypeParameter.h */,
+				C24035D61B3D87430018E388 /* CarTypeParameter.m */,
+				C256ABC11B3E356700C7D4E7 /* SellCarTypeTableView.h */,
+				C256ABC21B3E356700C7D4E7 /* SellCarTypeTableView.m */,
+				C256ABC41B3E358100C7D4E7 /* StopSellCarTypeTableView.h */,
+				C256ABC51B3E358100C7D4E7 /* StopSellCarTypeTableView.m */,
 				C253F6421B3C474A008C5442 /* CarTypeListCell.h */,
 				C253F6431B3C474A008C5442 /* CarTypeListCell.m */,
 				C253F6451B3C4778008C5442 /* CarTypeDetailCell.h */,
@@ -336,6 +363,8 @@
 		C253F6191B3C2BD3008C5442 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				C253F5ED1B3C2A73008C5442 /* AppDelegate.h */,
+				C253F5EE1B3C2A73008C5442 /* AppDelegate.m */,
 				C253F61A1B3C2BD3008C5442 /* Images */,
 				C253F61B1B3C2BD3008C5442 /* ourClass */,
 				C253F6201B3C2BD3008C5442 /* ThirdClass */,
@@ -378,6 +407,8 @@
 		C253F61D1B3C2BD3008C5442 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C24035C91B3D30890018E388 /* FileHandle.h */,
+				C24035CA1B3D30890018E388 /* FileHandle.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -385,6 +416,7 @@
 		C253F61E1B3C2BD3008C5442 /* netWork */ = {
 			isa = PBXGroup;
 			children = (
+				C24035C51B3D002B0018E388 /* AutobotsURL.h */,
 			);
 			path = netWork;
 			sourceTree = "<group>";
@@ -504,14 +536,20 @@
 			files = (
 				C253F5EF1B3C2A73008C5442 /* AppDelegate.m in Sources */,
 				C253F64A1B3C47DC008C5442 /* MoreDetailCell.m in Sources */,
+				C24035D41B3D86E90018E388 /* TypeListViewController.m in Sources */,
 				C253F6591B3C4ADC008C5442 /* FindCarListCell.m in Sources */,
-				C253F62C1B3C3A86008C5442 /* CarTypeListViewController.m in Sources */,
+				C256ABC31B3E356700C7D4E7 /* SellCarTypeTableView.m in Sources */,
+				C24035D11B3D86AD0018E388 /* CarTypeParameterController.m in Sources */,
 				C253F6291B3C3922008C5442 /* MyDetailTableViewController.m in Sources */,
 				C253F6531B3C4961008C5442 /* InformationListCell.m in Sources */,
+				C24035D71B3D87430018E388 /* CarTypeParameter.m in Sources */,
+				C256ABC61B3E358100C7D4E7 /* StopSellCarTypeTableView.m in Sources */,
+				C24035C81B3D30140018E388 /* CarType.m in Sources */,
 				C253F63E1B3C43E3008C5442 /* MoreDetailTableViewController.m in Sources */,
 				C253F6501B3C4935008C5442 /* InformationDetailCell.m in Sources */,
 				C253F5EC1B3C2A73008C5442 /* main.m in Sources */,
 				C253F63B1B3C4377008C5442 /* InformationDetailTableViewController.m in Sources */,
+				C24035CB1B3D30890018E388 /* FileHandle.m in Sources */,
 				C253F65C1B3C4EC7008C5442 /* FindCarListTableViewController.m in Sources */,
 				C253F64D1B3C4835008C5442 /* MoreListCell.m in Sources */,
 				C253F6411B3C440E008C5442 /* MoreListTableViewController.m in Sources */,
@@ -639,6 +677,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyCar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -649,6 +688,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyCar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -667,6 +707,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = MyCarTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyCar.app/MyCar";
@@ -682,6 +723,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = MyCarTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyCar.app/MyCar";
@@ -707,6 +749,7 @@
 				C253F6051B3C2A73008C5442 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C253F6061B3C2A73008C5442 /* Build configuration list for PBXNativeTarget "MyCarTests" */ = {
 			isa = XCConfigurationList;
@@ -715,6 +758,7 @@
 				C253F6081B3C2A73008C5442 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

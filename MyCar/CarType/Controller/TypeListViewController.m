@@ -1,22 +1,31 @@
 //
-//  CarTypeListViewController.m
+//  TypeListViewController.m
 //  MyCar
 //
-//  Created by lanou3g on 15-6-25.
+//  Created by lanou3g on 15/6/26.
 //  Copyright (c) 2015年 李智慧. All rights reserved.
 //
 
+#import "TypeListViewController.h"
+#import "CarTypeParameter.h"
 #import "CarTypeListViewController.h"
 
-@interface CarTypeListViewController ()
+
+@interface TypeListViewController ()
 
 @end
 
-@implementation CarTypeListViewController
+@implementation TypeListViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+//    CarTypeListViewController *carTypeVC = [[CarTypeListViewController alloc] initWithStyle:(UITableViewStyleGrouped)];
+//    [self.view addSubview:carTypeVC];
+    
+//    CarTypeParameter *carTP = [CarTypeParameter alloc] initWithFrame:<#(CGRect)#>
+    
 }
 
 - (void)didReceiveMemoryWarning {
