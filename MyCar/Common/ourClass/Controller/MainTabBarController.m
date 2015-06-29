@@ -7,10 +7,11 @@
 //
 
 #import "MainTabBarController.h"
-#import "CarTypeListViewController.h"
 #import "FindCarListTableViewController.h"
 #import "InformationListViewController.h"
 #import "MoreListTableViewController.h"
+
+#import "CarTypeParameterController.h"
 @interface MainTabBarController ()
 
 @end
@@ -20,35 +21,46 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    //配置
+    // 配置
     [self layoutControllers];
 }
 
+// 配置
 - (void)layoutControllers{
-    //四个页面  车型 找车 资讯  更多
-    //车型
-    CarTypeListViewController *CarTypeVC = [[CarTypeListViewController alloc]init];
+    // 四个页面  车型 找车 资讯  更多
+    // 车型
+    CarTypeParameterController *CarTypeVC = [[CarTypeParameterController alloc] init];
     UINavigationController *CAVC=[[UINavigationController alloc]initWithRootViewController:CarTypeVC];
     CarTypeVC.title =@"车型";
-    //车型小图标
+    // 车型小图标
     CAVC.tabBarItem.image=[UIImage imageNamed:@""];
-    //找车
+    // 找车
     FindCarListTableViewController *FindVC =[[FindCarListTableViewController alloc]init];
     UINavigationController *FIVC =[[UINavigationController alloc]initWithRootViewController:FindVC];
     FindVC.title =@"找车";
     FIVC.tabBarItem.image=[UIImage imageNamed:@""];
-    //资讯
+    // 资讯
     InformationListViewController *informationVC =[[InformationListViewController alloc]init];
     UINavigationController *InforVC=[[UINavigationController alloc]initWithRootViewController:informationVC];
     informationVC.title=@"资讯";
     InforVC.tabBarItem.image =[UIImage imageNamed:@""];
-    //更多
+    // 更多
     MoreListTableViewController *MoreVC =[[MoreListTableViewController alloc]init];
     UINavigationController *MOVC =[[UINavigationController alloc]initWithRootViewController:MoreVC];
     MoreVC.title =@"更多";
     MOVC.tabBarItem.image =[UIImage imageNamed:@""];
-    //设置管理
+    // 设置管理
     self.viewControllers =@[CAVC,FIVC,InforVC,MOVC];
+    
+    // 设置navigationBar的颜色
+    CAVC.navigationBar.barTintColor = [UIColor orangeColor];
+    // 设置navigetionBar为不透明
+    CAVC.navigationBar.translucent = NO;
+    
+    // 设置Bar的颜色
+    self.tabBar.backgroundColor = [UIColor whiteColor];
+    
+    
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
