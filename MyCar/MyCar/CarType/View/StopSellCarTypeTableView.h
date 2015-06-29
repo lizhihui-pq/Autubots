@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface StopSellCarTypeTableView : UITableView
-
+@property(nonatomic,copy)NSString *stopSellCarStr;
 @end

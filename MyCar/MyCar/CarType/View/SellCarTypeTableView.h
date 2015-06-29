@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface SellCarTypeTableView : UITableView
-
+#import "CarTypeParameterController.h"
+@interface SellCarTypeTableView : UITableView<CarTypeParameterControllerDelegate>
+@property(nonatomic,copy)NSString *sellCarStr;
 @end

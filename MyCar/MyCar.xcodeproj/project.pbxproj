@@ -13,11 +13,17 @@
 		C23570201B40F1C7003A6BEA /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = C235701C1B40F1C6003A6BEA /* SVIndefiniteAnimatedView.m */; };
 		C23570211B40F1C7003A6BEA /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C235701D1B40F1C6003A6BEA /* SVProgressHUD.bundle */; };
 		C23570221B40F1C7003A6BEA /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C235701F1B40F1C7003A6BEA /* SVProgressHUD.m */; };
-		C24035C81B3D30140018E388 /* CarType.m in Sources */ = {isa = PBXBuildFile; fileRef = C24035C71B3D30140018E388 /* CarType.m */; };
+		C235703F1B417C42003A6BEA /* CarTypeDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C235702A1B417C42003A6BEA /* CarTypeDetailTableViewController.m */; };
+		C23570401B417C42003A6BEA /* CarTypeParameterController.m in Sources */ = {isa = PBXBuildFile; fileRef = C235702C1B417C42003A6BEA /* CarTypeParameterController.m */; };
+		C23570411B417C42003A6BEA /* TypeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C235702E1B417C42003A6BEA /* TypeListViewController.m */; };
+		C23570421B417C42003A6BEA /* CarType.m in Sources */ = {isa = PBXBuildFile; fileRef = C23570311B417C42003A6BEA /* CarType.m */; };
+		C23570431B417C42003A6BEA /* CellCarType.m in Sources */ = {isa = PBXBuildFile; fileRef = C23570331B417C42003A6BEA /* CellCarType.m */; };
+		C23570441B417C42003A6BEA /* CarTypeDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C23570361B417C42003A6BEA /* CarTypeDetailCell.m */; };
+		C23570451B417C42003A6BEA /* CarTypeListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C23570381B417C42003A6BEA /* CarTypeListCell.m */; };
+		C23570461B417C42003A6BEA /* CarTypeParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = C235703A1B417C42003A6BEA /* CarTypeParameter.m */; };
+		C23570471B417C42003A6BEA /* SellCarTypeTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C235703C1B417C42003A6BEA /* SellCarTypeTableView.m */; };
+		C23570481B417C42003A6BEA /* StopSellCarTypeTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C235703E1B417C42003A6BEA /* StopSellCarTypeTableView.m */; };
 		C24035CB1B3D30890018E388 /* FileHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = C24035CA1B3D30890018E388 /* FileHandle.m */; };
-		C24035D11B3D86AD0018E388 /* CarTypeParameterController.m in Sources */ = {isa = PBXBuildFile; fileRef = C24035D01B3D86AD0018E388 /* CarTypeParameterController.m */; };
-		C24035D41B3D86E90018E388 /* TypeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C24035D31B3D86E90018E388 /* TypeListViewController.m */; };
-		C24035D71B3D87430018E388 /* CarTypeParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = C24035D61B3D87430018E388 /* CarTypeParameter.m */; };
 		C244D78D1B3D2DE700F2235A /* RequestHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = C244D78C1B3D2DE700F2235A /* RequestHandle.m */; };
 		C244D7901B3D2DF600F2235A /* ImageDownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = C244D78F1B3D2DF600F2235A /* ImageDownLoader.m */; };
 		C253F5EC1B3C2A73008C5442 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C253F5EB1B3C2A73008C5442 /* main.m */; };
@@ -27,19 +33,14 @@
 		C253F6001B3C2A73008C5442 /* MyCarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C253F5FF1B3C2A73008C5442 /* MyCarTests.m */; };
 		C253F6231B3C2FE7008C5442 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C253F6221B3C2FE7008C5442 /* MainTabBarController.m */; };
 		C253F6261B3C30D5008C5442 /* MyListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C253F6251B3C30D5008C5442 /* MyListTableViewController.m */; };
-		C253F62F1B3C3BA0008C5442 /* CarTypeDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C253F62E1B3C3BA0008C5442 /* CarTypeDetailTableViewController.m */; };
 		C253F6381B3C4340008C5442 /* InformationListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C253F6371B3C4340008C5442 /* InformationListViewController.m */; };
 		C253F63B1B3C4377008C5442 /* InformationDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C253F63A1B3C4377008C5442 /* InformationDetailTableViewController.m */; };
 		C253F63E1B3C43E3008C5442 /* MoreDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C253F63D1B3C43E3008C5442 /* MoreDetailTableViewController.m */; };
 		C253F6411B3C440E008C5442 /* MoreListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C253F6401B3C440E008C5442 /* MoreListTableViewController.m */; };
-		C253F6441B3C474A008C5442 /* CarTypeListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C253F6431B3C474A008C5442 /* CarTypeListCell.m */; };
-		C253F6471B3C4778008C5442 /* CarTypeDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C253F6461B3C4778008C5442 /* CarTypeDetailCell.m */; };
 		C253F64A1B3C47DC008C5442 /* MoreDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C253F6491B3C47DC008C5442 /* MoreDetailCell.m */; };
 		C253F64D1B3C4835008C5442 /* MoreListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C253F64C1B3C4835008C5442 /* MoreListCell.m */; };
 		C253F6501B3C4935008C5442 /* InformationDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C253F64F1B3C4935008C5442 /* InformationDetailCell.m */; };
 		C253F6561B3C4A91008C5442 /* FindCarDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C253F6551B3C4A91008C5442 /* FindCarDetailCell.m */; };
-		C256ABC31B3E356700C7D4E7 /* SellCarTypeTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C256ABC21B3E356700C7D4E7 /* SellCarTypeTableView.m */; };
-		C256ABC61B3E358100C7D4E7 /* StopSellCarTypeTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C256ABC51B3E358100C7D4E7 /* StopSellCarTypeTableView.m */; };
 		C29C20F81B3E378F007D7BDD /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = C29C20F71B3E378F007D7BDD /* News.m */; };
 		C29C211B1B3E7B54007D7BDD /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C29C20FB1B3E7B54007D7BDD /* MKAnnotationView+WebCache.m */; };
 		C29C211C1B3E7B54007D7BDD /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = C29C20FD1B3E7B54007D7BDD /* NSData+ImageContentType.m */; };
@@ -86,17 +87,29 @@
 		C235701D1B40F1C6003A6BEA /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
 		C235701E1B40F1C7003A6BEA /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
 		C235701F1B40F1C7003A6BEA /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
-		C24035C51B3D002B0018E388 /* AutobotsURL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutobotsURL.h; sourceTree = SOURCE_ROOT; };
-		C24035C61B3D30140018E388 /* CarType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarType.h; sourceTree = SOURCE_ROOT; };
-		C24035C71B3D30140018E388 /* CarType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarType.m; sourceTree = SOURCE_ROOT; };
+		C23570261B417C0E003A6BEA /* AutobotsURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutobotsURL.h; sourceTree = "<group>"; };
+		C23570291B417C42003A6BEA /* CarTypeDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarTypeDetailTableViewController.h; sourceTree = "<group>"; };
+		C235702A1B417C42003A6BEA /* CarTypeDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarTypeDetailTableViewController.m; sourceTree = "<group>"; };
+		C235702B1B417C42003A6BEA /* CarTypeParameterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarTypeParameterController.h; sourceTree = "<group>"; };
+		C235702C1B417C42003A6BEA /* CarTypeParameterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarTypeParameterController.m; sourceTree = "<group>"; };
+		C235702D1B417C42003A6BEA /* TypeListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeListViewController.h; sourceTree = "<group>"; };
+		C235702E1B417C42003A6BEA /* TypeListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeListViewController.m; sourceTree = "<group>"; };
+		C23570301B417C42003A6BEA /* CarType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarType.h; sourceTree = "<group>"; };
+		C23570311B417C42003A6BEA /* CarType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarType.m; sourceTree = "<group>"; };
+		C23570321B417C42003A6BEA /* CellCarType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellCarType.h; sourceTree = "<group>"; };
+		C23570331B417C42003A6BEA /* CellCarType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellCarType.m; sourceTree = "<group>"; };
+		C23570351B417C42003A6BEA /* CarTypeDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarTypeDetailCell.h; sourceTree = "<group>"; };
+		C23570361B417C42003A6BEA /* CarTypeDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarTypeDetailCell.m; sourceTree = "<group>"; };
+		C23570371B417C42003A6BEA /* CarTypeListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarTypeListCell.h; sourceTree = "<group>"; };
+		C23570381B417C42003A6BEA /* CarTypeListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarTypeListCell.m; sourceTree = "<group>"; };
+		C23570391B417C42003A6BEA /* CarTypeParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarTypeParameter.h; sourceTree = "<group>"; };
+		C235703A1B417C42003A6BEA /* CarTypeParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarTypeParameter.m; sourceTree = "<group>"; };
+		C235703B1B417C42003A6BEA /* SellCarTypeTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SellCarTypeTableView.h; sourceTree = "<group>"; };
+		C235703C1B417C42003A6BEA /* SellCarTypeTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SellCarTypeTableView.m; sourceTree = "<group>"; };
+		C235703D1B417C42003A6BEA /* StopSellCarTypeTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopSellCarTypeTableView.h; sourceTree = "<group>"; };
+		C235703E1B417C42003A6BEA /* StopSellCarTypeTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopSellCarTypeTableView.m; sourceTree = "<group>"; };
 		C24035C91B3D30890018E388 /* FileHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileHandle.h; sourceTree = SOURCE_ROOT; };
 		C24035CA1B3D30890018E388 /* FileHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileHandle.m; sourceTree = SOURCE_ROOT; };
-		C24035CF1B3D86AD0018E388 /* CarTypeParameterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CarTypeParameterController.h; path = ../View/CarTypeParameterController.h; sourceTree = "<group>"; };
-		C24035D01B3D86AD0018E388 /* CarTypeParameterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CarTypeParameterController.m; path = ../View/CarTypeParameterController.m; sourceTree = "<group>"; };
-		C24035D21B3D86E90018E388 /* TypeListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeListViewController.h; sourceTree = "<group>"; };
-		C24035D31B3D86E90018E388 /* TypeListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeListViewController.m; sourceTree = "<group>"; };
-		C24035D51B3D87430018E388 /* CarTypeParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarTypeParameter.h; sourceTree = "<group>"; };
-		C24035D61B3D87430018E388 /* CarTypeParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarTypeParameter.m; sourceTree = "<group>"; };
 		C244D78B1B3D2DE700F2235A /* RequestHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestHandle.h; sourceTree = "<group>"; };
 		C244D78C1B3D2DE700F2235A /* RequestHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestHandle.m; sourceTree = "<group>"; };
 		C244D78E1B3D2DF600F2235A /* ImageDownLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDownLoader.h; sourceTree = "<group>"; };
@@ -117,8 +130,6 @@
 		C253F6251B3C30D5008C5442 /* MyListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyListTableViewController.m; sourceTree = "<group>"; };
 		C253F6271B3C3922008C5442 /* MyDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDetailTableViewController.h; sourceTree = "<group>"; };
 		C253F6281B3C3922008C5442 /* MyDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDetailTableViewController.m; sourceTree = "<group>"; };
-		C253F62D1B3C3BA0008C5442 /* CarTypeDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarTypeDetailTableViewController.h; sourceTree = "<group>"; };
-		C253F62E1B3C3BA0008C5442 /* CarTypeDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarTypeDetailTableViewController.m; sourceTree = "<group>"; };
 		C253F6361B3C4340008C5442 /* InformationListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InformationListViewController.h; sourceTree = "<group>"; };
 		C253F6371B3C4340008C5442 /* InformationListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationListViewController.m; sourceTree = "<group>"; };
 		C253F6391B3C4377008C5442 /* InformationDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InformationDetailTableViewController.h; sourceTree = "<group>"; };
@@ -127,10 +138,6 @@
 		C253F63D1B3C43E3008C5442 /* MoreDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreDetailTableViewController.m; sourceTree = "<group>"; };
 		C253F63F1B3C440E008C5442 /* MoreListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreListTableViewController.h; sourceTree = "<group>"; };
 		C253F6401B3C440E008C5442 /* MoreListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreListTableViewController.m; sourceTree = "<group>"; };
-		C253F6421B3C474A008C5442 /* CarTypeListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarTypeListCell.h; sourceTree = "<group>"; };
-		C253F6431B3C474A008C5442 /* CarTypeListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarTypeListCell.m; sourceTree = "<group>"; };
-		C253F6451B3C4778008C5442 /* CarTypeDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarTypeDetailCell.h; sourceTree = "<group>"; };
-		C253F6461B3C4778008C5442 /* CarTypeDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarTypeDetailCell.m; sourceTree = "<group>"; };
 		C253F6481B3C47DC008C5442 /* MoreDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreDetailCell.h; sourceTree = "<group>"; };
 		C253F6491B3C47DC008C5442 /* MoreDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreDetailCell.m; sourceTree = "<group>"; };
 		C253F64B1B3C4835008C5442 /* MoreListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreListCell.h; sourceTree = "<group>"; };
@@ -139,10 +146,6 @@
 		C253F64F1B3C4935008C5442 /* InformationDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationDetailCell.m; sourceTree = "<group>"; };
 		C253F6541B3C4A91008C5442 /* FindCarDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindCarDetailCell.h; sourceTree = "<group>"; };
 		C253F6551B3C4A91008C5442 /* FindCarDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindCarDetailCell.m; sourceTree = "<group>"; };
-		C256ABC11B3E356700C7D4E7 /* SellCarTypeTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SellCarTypeTableView.h; sourceTree = "<group>"; };
-		C256ABC21B3E356700C7D4E7 /* SellCarTypeTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SellCarTypeTableView.m; sourceTree = "<group>"; };
-		C256ABC41B3E358100C7D4E7 /* StopSellCarTypeTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopSellCarTypeTableView.h; sourceTree = "<group>"; };
-		C256ABC51B3E358100C7D4E7 /* StopSellCarTypeTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopSellCarTypeTableView.m; sourceTree = "<group>"; };
 		C29C20F61B3E378F007D7BDD /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
 		C29C20F71B3E378F007D7BDD /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
 		C29C20FA1B3E7B54007D7BDD /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
@@ -224,6 +227,57 @@
 			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
+		C23570271B417C42003A6BEA /* CarType */ = {
+			isa = PBXGroup;
+			children = (
+				C23570281B417C42003A6BEA /* Controller */,
+				C235702F1B417C42003A6BEA /* Model */,
+				C23570341B417C42003A6BEA /* View */,
+			);
+			path = CarType;
+			sourceTree = "<group>";
+		};
+		C23570281B417C42003A6BEA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C23570291B417C42003A6BEA /* CarTypeDetailTableViewController.h */,
+				C235702A1B417C42003A6BEA /* CarTypeDetailTableViewController.m */,
+				C235702B1B417C42003A6BEA /* CarTypeParameterController.h */,
+				C235702C1B417C42003A6BEA /* CarTypeParameterController.m */,
+				C235702D1B417C42003A6BEA /* TypeListViewController.h */,
+				C235702E1B417C42003A6BEA /* TypeListViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C235702F1B417C42003A6BEA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C23570301B417C42003A6BEA /* CarType.h */,
+				C23570311B417C42003A6BEA /* CarType.m */,
+				C23570321B417C42003A6BEA /* CellCarType.h */,
+				C23570331B417C42003A6BEA /* CellCarType.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C23570341B417C42003A6BEA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C23570351B417C42003A6BEA /* CarTypeDetailCell.h */,
+				C23570361B417C42003A6BEA /* CarTypeDetailCell.m */,
+				C23570371B417C42003A6BEA /* CarTypeListCell.h */,
+				C23570381B417C42003A6BEA /* CarTypeListCell.m */,
+				C23570391B417C42003A6BEA /* CarTypeParameter.h */,
+				C235703A1B417C42003A6BEA /* CarTypeParameter.m */,
+				C235703B1B417C42003A6BEA /* SellCarTypeTableView.h */,
+				C235703C1B417C42003A6BEA /* SellCarTypeTableView.m */,
+				C235703D1B417C42003A6BEA /* StopSellCarTypeTableView.h */,
+				C235703E1B417C42003A6BEA /* StopSellCarTypeTableView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		C253F5DD1B3C2A72008C5442 = {
 			isa = PBXGroup;
 			children = (
@@ -246,7 +300,7 @@
 			isa = PBXGroup;
 			children = (
 				C253F6191B3C2BD3008C5442 /* Common */,
-				C253F6151B3C2BCF008C5442 /* CarType */,
+				C23570271B417C42003A6BEA /* CarType */,
 				C253F6111B3C2BCA008C5442 /* FindCar */,
 				C253F60D1B3C2BC6008C5442 /* Information */,
 				C253F6091B3C2BC1008C5442 /* More */,
@@ -403,56 +457,6 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		C253F6151B3C2BCF008C5442 /* CarType */ = {
-			isa = PBXGroup;
-			children = (
-				C253F6161B3C2BCF008C5442 /* Controller */,
-				C253F6171B3C2BCF008C5442 /* Model */,
-				C253F6181B3C2BCF008C5442 /* View */,
-			);
-			name = CarType;
-			path = ../CarType;
-			sourceTree = "<group>";
-		};
-		C253F6161B3C2BCF008C5442 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				C24035CF1B3D86AD0018E388 /* CarTypeParameterController.h */,
-				C24035D01B3D86AD0018E388 /* CarTypeParameterController.m */,
-				C253F62D1B3C3BA0008C5442 /* CarTypeDetailTableViewController.h */,
-				C253F62E1B3C3BA0008C5442 /* CarTypeDetailTableViewController.m */,
-				C24035D21B3D86E90018E388 /* TypeListViewController.h */,
-				C24035D31B3D86E90018E388 /* TypeListViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		C253F6171B3C2BCF008C5442 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				C24035C61B3D30140018E388 /* CarType.h */,
-				C24035C71B3D30140018E388 /* CarType.m */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		C253F6181B3C2BCF008C5442 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				C24035D51B3D87430018E388 /* CarTypeParameter.h */,
-				C24035D61B3D87430018E388 /* CarTypeParameter.m */,
-				C256ABC11B3E356700C7D4E7 /* SellCarTypeTableView.h */,
-				C256ABC21B3E356700C7D4E7 /* SellCarTypeTableView.m */,
-				C256ABC41B3E358100C7D4E7 /* StopSellCarTypeTableView.h */,
-				C256ABC51B3E358100C7D4E7 /* StopSellCarTypeTableView.m */,
-				C253F6421B3C474A008C5442 /* CarTypeListCell.h */,
-				C253F6431B3C474A008C5442 /* CarTypeListCell.m */,
-				C253F6451B3C4778008C5442 /* CarTypeDetailCell.h */,
-				C253F6461B3C4778008C5442 /* CarTypeDetailCell.m */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 		C253F6191B3C2BD3008C5442 /* Common */ = {
 			isa = PBXGroup;
 			children = (
@@ -511,7 +515,7 @@
 		C253F61E1B3C2BD3008C5442 /* netWork */ = {
 			isa = PBXGroup;
 			children = (
-				C24035C51B3D002B0018E388 /* AutobotsURL.h */,
+				C23570261B417C0E003A6BEA /* AutobotsURL.h */,
 			);
 			path = netWork;
 			sourceTree = "<group>";
@@ -700,12 +704,17 @@
 			files = (
 				C253F5EF1B3C2A73008C5442 /* AppDelegate.m in Sources */,
 				C29C219F1B3ECE76007D7BDD /* SDRefreshHeaderView.m in Sources */,
+				C23570481B417C42003A6BEA /* StopSellCarTypeTableView.m in Sources */,
+				C23570411B417C42003A6BEA /* TypeListViewController.m in Sources */,
+				C23570451B417C42003A6BEA /* CarTypeListCell.m in Sources */,
+				C235703F1B417C42003A6BEA /* CarTypeDetailTableViewController.m in Sources */,
 				C23570171B40DFD7003A6BEA /* FindCarDetailTableViewController.m in Sources */,
 				C29C21241B3E7B54007D7BDD /* UIButton+WebCache.m in Sources */,
 				C29C21221B3E7B54007D7BDD /* SDWebImageManager.m in Sources */,
 				C23570221B40F1C7003A6BEA /* SVProgressHUD.m in Sources */,
 				C253F64A1B3C47DC008C5442 /* MoreDetailCell.m in Sources */,
 				C244D7901B3D2DF600F2235A /* ImageDownLoader.m in Sources */,
+				C23570471B417C42003A6BEA /* SellCarTypeTableView.m in Sources */,
 				C29C21201B3E7B54007D7BDD /* SDWebImageDownloader.m in Sources */,
 				C244D78D1B3D2DE700F2235A /* RequestHandle.m in Sources */,
 				C29C211E1B3E7B54007D7BDD /* SDWebImageCompat.m in Sources */,
@@ -714,12 +723,6 @@
 				C29C219E1B3ECE76007D7BDD /* SDRefreshFooterView.m in Sources */,
 				C29C212A1B3E7B54007D7BDD /* UIView+WebCacheOperation.m in Sources */,
 				C29C21A01B3ECE76007D7BDD /* SDRefreshView.m in Sources */,
-				C24035D41B3D86E90018E388 /* TypeListViewController.m in Sources */,
-				C256ABC31B3E356700C7D4E7 /* SellCarTypeTableView.m in Sources */,
-				C24035D11B3D86AD0018E388 /* CarTypeParameterController.m in Sources */,
-				C24035D71B3D87430018E388 /* CarTypeParameter.m in Sources */,
-				C256ABC61B3E358100C7D4E7 /* StopSellCarTypeTableView.m in Sources */,
-				C24035C81B3D30140018E388 /* CarType.m in Sources */,
 				C253F63E1B3C43E3008C5442 /* MoreDetailTableViewController.m in Sources */,
 				C253F6501B3C4935008C5442 /* InformationDetailCell.m in Sources */,
 				C29C21291B3E7B54007D7BDD /* UIImageView+WebCache.m in Sources */,
@@ -733,18 +736,20 @@
 				C29C21281B3E7B54007D7BDD /* UIImageView+HighlightedWebCache.m in Sources */,
 				C24035CB1B3D30890018E388 /* FileHandle.m in Sources */,
 				C23570141B40DF98003A6BEA /* FindCarListTableViewController.m in Sources */,
+				C23570461B417C42003A6BEA /* CarTypeParameter.m in Sources */,
 				C253F64D1B3C4835008C5442 /* MoreListCell.m in Sources */,
 				C29C20F81B3E378F007D7BDD /* News.m in Sources */,
 				C253F6411B3C440E008C5442 /* MoreListTableViewController.m in Sources */,
+				C23570431B417C42003A6BEA /* CellCarType.m in Sources */,
 				C29C211C1B3E7B54007D7BDD /* NSData+ImageContentType.m in Sources */,
 				C253F6561B3C4A91008C5442 /* FindCarDetailCell.m in Sources */,
 				C29C212E1B3E86B5007D7BDD /* InformationViewController.m in Sources */,
-				C253F6471B3C4778008C5442 /* CarTypeDetailCell.m in Sources */,
+				C23570401B417C42003A6BEA /* CarTypeParameterController.m in Sources */,
 				C253F6231B3C2FE7008C5442 /* MainTabBarController.m in Sources */,
 				C29C211F1B3E7B54007D7BDD /* SDWebImageDecoder.m in Sources */,
+				C23570441B417C42003A6BEA /* CarTypeDetailCell.m in Sources */,
+				C23570421B417C42003A6BEA /* CarType.m in Sources */,
 				C253F6261B3C30D5008C5442 /* MyListTableViewController.m in Sources */,
-				C253F6441B3C474A008C5442 /* CarTypeListCell.m in Sources */,
-				C253F62F1B3C3BA0008C5442 /* CarTypeDetailTableViewController.m in Sources */,
 				C29C21231B3E7B54007D7BDD /* SDWebImagePrefetcher.m in Sources */,
 				C29C211B1B3E7B54007D7BDD /* MKAnnotationView+WebCache.m in Sources */,
 				C29C21251B3E7B54007D7BDD /* UIImage+GIF.m in Sources */,

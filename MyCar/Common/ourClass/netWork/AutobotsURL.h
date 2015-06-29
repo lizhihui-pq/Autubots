@@ -11,7 +11,7 @@
 #define kCarTypeURL @"http://baojia.qichecdn.com/priceapi3.9.2/services/cars/brands?app=2&platform=1&version=3.9.2&ts=0"
 
 #pragma mark -----------------在售车型参数--------------------
-#define kSellCarTypeParameterURL @"http://baojia.qichecdn.com/priceapi3.9.2/services/seriesprice/get?brandid=32&cityid=0&salestate=1"
+#define kSellCarTypeParameterURL @"http://baojia.qichecdn.com/priceapi3.9.2/services/seriesprice/get?brandid=%@&cityid=0&salestate=1"
 //salestate=1表示在售汽车 brandid=32车型ID
 
 #pragma mark ----------------在售车型详细参数------------------
@@ -19,7 +19,7 @@
 //salestate=1 seriesid=3103
 
 #pragma mark -----------------停售车型参数---------------------
-#define kStopSellCarTypeParameterURL @"http://baojia.qichecdn.com/priceapi3.9.2/services/seriesprice/get?brandid=33&cityid=0&salestate=3"
+#define kStopSellCarTypeParameterURL @"http://baojia.qichecdn.com/priceapi3.9.2/services/seriesprice/get?brandid=%@&cityid=0&salestate=3"
 //salestate=3表示停售 brandid=33车型ID
 
 #pragma mark -----------------停售车型详细参数------------------
