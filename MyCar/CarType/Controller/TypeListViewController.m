@@ -8,7 +8,7 @@
 
 #import "TypeListViewController.h"
 #import "CarTypeParameter.h"
-#import "CarTypeListViewController.h"
+
 
 
 @interface TypeListViewController ()

@@ -13,6 +13,7 @@
 #import "UIImageView+WebCache.h"
 #import "InformationViewController.h"
 #import "SDRefresh.h"
+#import "SVProgressHUD.h"
 @interface InformationListViewController ()<RequestHandleDelegate>
 @property (nonatomic,retain)NSMutableArray *newslistArr;// 存储
 
@@ -38,6 +39,8 @@
     [self headerView];
     // 下拉加载
     [self foolDView];
+    
+    
 }
 
 
@@ -60,8 +63,30 @@
 {
     
     [self requestData];
+    [SVProgressHUD showWithStatus:@"加载中....."];
+    
+    
+    //[SVProgressHUD setFont:<#(UIFont *)#>]
+    [SVProgressHUD setSuccessImage:[UIImage imageNamed:@"3.png"]];
+   // [SVProgressHUD showProgress:0 status:@"加载中"];
+     //[SVProgressHUD showSuccessWithStatus:@"success"];
+    //[SVProgressHUD showErrorWithStatus:@"error"];
+    [SVProgressHUD dismiss];
+}
+
+static float progressValue = 0.0f;
+- (void)increateProgress
+{
+    progressValue += 0.1;
+    [SVProgressHUD showProgress:progressValue status:@"加载中"];
+    if (progressValue < 1) {
+        [self performSelector:@selector(increateProgress) withObject:nil afterDelay:0.3];
+    }else{
+        [self performSelector:@selector(dismiss:) withObject:nil afterDelay:0.4];
+    }
     
 }
+
 // 请求数据
 - (void)requestData
 {
